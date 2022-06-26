@@ -1,6 +1,3 @@
-const userFullData = (keyData)=>{
-  alert("hi")
-}
 
 const userDataElement = async() => {
   const response = await fetch("./asset/data/config.json").then(json=>(json.json()))
